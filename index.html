@@ -1,80 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio</title>
-  </head>
 
-  <body>
-    
-  <header class="header">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Name and nav bar -->
+    <header class="header">
+        <h1>Stephanie Zavala</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">My Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
+            <ul id="nav-link"></ul>
+            <li><a href="#about-me"> About Me</a></li>
+            <li><a href="#work"> My Work</a></li>
+            <li><a href="#contact-me"> Contact Me</a></li>
         </nav>
     </header>
-    <div class="main">
-      <h1>Stephanie Zavala</h1>
-      <br />
-      <div id= "about-me" >
-        <h2>About Me</h2>
-    </div>
-      <p>Beginner in web coding and design.</p>
-      <br />
-      <div id= "work" >
-        <h2>My Work</h2>
-    </div>
-      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="person holding cell phone displaying text I design and develop experiences that make people's lives simple."
-      style="width:100%" />
-      <!-- Portfolio Gallery Grid -->
+
+    <!-- </div>
       <div class="row">
         <div class="column">
           <div class="content">
             <h3>Delilah's Macarons: Made with Love</h3>
-            <p>
-             Tasty macarons, freshly made by hand, with love. 
-            </p>
           </div>
         </div>
         <div class="column">
           <div class="content">
-            <img src="https://images.unsplash.com/photo-1597757509656-fc87d42bce70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Delightful Macarons" style="width: 25%" />
-            <br>
             <h3>Granillo & Co.</h3>
-            <p>
-              Be content. Do you. Let's get to work.
-            </p>
           </div>
         </div>
         <div class="column">
           <div class="content">
-            <img src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="difficult roads lead to beautiful destinations desk decor" style="width: 25%" />
-            <br>
             <h3>Rate That Bathroom!</h3>
-            <p>
-              Found a restroom you loved? Praise it here! Found a restroom that needs improvement? Let the world know.
-            </p>
           </div>
           <div class="column">
               <div class="content">
-                  <img src="https://images.unsplash.com/photo-1502745582385-1d28a39a7269?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="outhouse in desert"
-                  style="width: 25%;" />
-
               </div>
           </div>
         </div>
-        <div id= "contact-me" >
-            <h2>Contact Me</h2>
+    </div> --> 
+
+    <div class="main">
+        <div> about section, make this flex
+            <div id=about-me>
+                <h2>About Me</h2>
+            </div>
+            <div> centered text
+                <p>Became part of the U.S. Marine Corps in 2003. Upon being medically retired for stage III colon
+                    cancer, I began to research cancer on my own. I realized that there was a strong relationship with
+                    several types of cancers and food. Once I finished chemotherapy, I moved back home to pursue more
+                    knowledge in nutrition. I graduated from the University of Arizona with a B.S. in Nutritional
+                    Sciences and a minor in chemistry. I had worked several years teaching classes and providing
+                    coaching for people who wanted to make changes for the betterment of their health. Now I am
+                    attending a completely different kind of bootcamp. I hope this will take me to a place that could
+                    provide increased accessibility to health care for all ages and skill levels.</p>
+                <p>Please check back as I plan to update this page with realized projects.</p>
+            </div>
+        </div>
+        <div id=work> 
+            <div>
+                <h2>My Work</h2>
+            </div>
+            <div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+                        alt="person holding cell phone displaying text I design and develop experiences that make people's lives simple."
+                        style="width:50%" />
+                </div>
+                <div> flexed images
+                    <img src="https://images.unsplash.com/photo-1597757509656-fc87d42bce70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+                        alt="Delightful Macarons" style="width: 25%" />
+
+                    <img src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+                        alt="Difficult roads lead to beautiful destinations desk decor" style="width: 25%" />
+
+                    <img src="https://images.unsplash.com/photo-1502745582385-1d28a39a7269?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+                        alt="outhouse in desert" style="width: 25%;" />
+                </div>
+            </div>
+        </div>
+        <div> contact section
+            <div id=contact-me>
+                <h2>Contact Me</h2>
+            </div>
+            <div>
+                <p>Phone: 111-222-3333</p>
+                <p>Email: stephaniemzavala@gmail.com</p>
+                <p>GitHub: github.com/spicystephy</p>
+            </div>
         </div>
     </div>
-  </body>
+</body>
+
 </html>
