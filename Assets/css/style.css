@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #7559ca;
+body:focus {
   padding: 20px;
   font-family: Arial;
+  background-color: white;
 }
 
 .header {
-  background-color: rgb(43, 226, 52);
-  color: magenta;
+  background-color: rgb(231, 215, 245);
+  color: rgb(44, 53, 129);
   font-family: sans-serif;
   list-style-type: none;
   display: flex;
@@ -18,55 +18,84 @@ body {
 }
 .header nav {
   display: flex;
-  align-items: right;
-  border: blue;
-  border-style: solid;  
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: gold;
 }
 
 h1 {
   font-size: 50px;
   display: flex;
   justify-content: flex-start;
-  }
-
-#top-link {
-  display: flex;
-  flex-direction: column;
-
 }
+
+#nav-link {
+  display: flex;
+}
+
 .main {
-  max-width: 1000px;
+  /* max-width: 1000px; */
+  background-color: rgb(231, 215, 245);
   margin: auto;
 }
 
-
-/* .row {
-  margin: 8px -16px;
+div h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-/* Add padding BETWEEN each column (if you want) */
-/* .row,
-.row > .column {
-  padding: 8px;
-} */
+p {
+  margin: 20px;
+  margin-left: 100px;
+  font-size: 25px;
+}
 
-/* Create four equal columns that floats next to each other */
-/* .column {
-  float: left;
-  width: 25%;
-} */
+.section1-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
 
-/* Clear floats after rows */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */ 
+.info {
+  display: flex;
+  justify-content: center;
+}
 
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
+.text-overlay {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: rgb(171, 177, 235);
+  border-radius: 50px 50px 50px 50px;
+  padding: 0px;
+  width: 85x;
+  height: 85px;
+  border: rgb(129, 135, 192);
+  border-style: solid;
+  border-width: 1.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: last center;
+  align-items: center;
+}
+
+img {
+  border-radius: 50px 50px 50px 50px;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+  /* display: flex;
+  flex-shrink: 20;  */
+}
+
+img:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 900px) {
