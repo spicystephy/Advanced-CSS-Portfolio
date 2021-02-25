@@ -1,6 +1,7 @@
 Welcome to my portfolio. Here you will find future projects that will help me hone the skills needed to build successfully functioning sites. 
 <br>
 Totonki Tortilla Warmers is a one-of-a-kind shop built by my mom. She has been selling her homemade tortilla warmers on Etsy and local craft fairs. I would love for her to have her very own site. 
+<br>
 Delilah's Delights will be a site for a friend to sell her macarons. Currently she sells through Instagram and would like a proper store front of her own. 
 <br>
 Granillo & Co. will be a site built for a friend so that she can start her own businness as a private therapist. 
