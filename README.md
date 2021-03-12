@@ -11,3 +11,7 @@ Finally, Rate that Restroom is an idea I had many, many years ago. Because of my
 Here is the link to my portfolio site. It should be updated with better graphics, responsiveness, and information as my skills improve. 
 <br>
 https://spicystephy.github.io/Advanced-CSS-Portfolio/.
+
+
+Made with:
+https://getbootstrap.com/docs/5.0/layout/breakpoints/

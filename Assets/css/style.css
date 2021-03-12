@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -41,11 +41,11 @@ h1 {
 
 .main {
   /* max-width: 1000px; */
-  background-color: rgb(231, 215, 245);
+  /* background-color: rgb(231, 215, 245);
   margin: auto;
-}
+ }  */
 
-div h2 {
+/* div h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -83,22 +83,59 @@ p {
   flex-direction: row;
   justify-content: last center;
   align-items: center;
+  position: absolute;
+}
+
+.text-overlay2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: rgb(171, 177, 235);
+  border-radius: 50px 50px 50px 50px;
+  padding: 0px;
+  width: 85x;
+  height: 85px;
+  border: rgb(129, 135, 192);
+  border-style: solid;
+  border-width: 1.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: last center;
+  align-items: center; */
+  /* position: relative; */
+/* }
+
+#first-box{
+  position:absolute;
+  left: 175px;
+}
+#second-box{
+  position:absolute;
+}
+#third-box{
+  position:absolute;
+  right: 175px;
 }
 
 img {
   border-radius: 50px 50px 50px 50px;
   padding: 20px;
-  width: 200px;
+  width: 25%;
   height: 250px;
   /* display: flex;
-  flex-shrink: 20;  */
+  flex-shrink: 20;  
+} */
+
+
+
+.navbar-nav{
+background-color: blue;
 }
 
 img:hover {
   opacity: 0.5;
 }
 
-@media screen and (max-width: 900px) {
+ @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
@@ -106,6 +143,8 @@ img:hover {
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 100%; 
   }
-}
+}   
+
+
