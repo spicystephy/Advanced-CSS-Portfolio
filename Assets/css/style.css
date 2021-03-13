@@ -16,7 +16,10 @@ a:hover {
 .header{
   background-color: rgb(235, 222, 235);
   font-size: 28px;
-  display: flex
+  display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    /* justify-content: flex-end; */
 }
 .header::after img{
   margin-top: 10px;
@@ -26,11 +29,9 @@ a:hover {
   margin-left: 100px;
 }
 .navbar-nav{ 
-  display: flex;
-  flex-direction: row;
-  /* justify-content: space-between; */
   font-size: 18px;
-  font-family:'Segoe UI', Tahoma
+  font-family:'Segoe UI', Tahoma;
+  
 } 
 
 img:hover {
