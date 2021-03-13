@@ -14,4 +14,4 @@ https://spicystephy.github.io/Advanced-CSS-Portfolio/.
 
 
 Made with:
-https://getbootstrap.com/docs/5.0/layout/breakpoints/
+https://getbootstrap.com/docs/5.0/layout/

@@ -57,11 +57,7 @@ p {
   font-size: 25px;
 }
 
-.section1-3 {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 100px;
-}
+
 
 .info {
   display: flex;
@@ -122,17 +118,14 @@ p {
 
 .header h1{
   font-size: 36px;
-}
+/* } */
 
-.navbar-nav{
-background-color: blue; */
-
-
-display: flex;
+.navbar-nav{ 
+ display: flex;
   justify-content: space-evenly;
   font-size: 18px;
   font-family:'Segoe UI', Tahoma
-}
+} 
 
 img:hover {
   opacity: 0.5;
@@ -144,12 +137,18 @@ img:hover {
 }
 
 img {
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 50px;
   padding: 20px;
-  width: 25%;
-  height: 250px;
+  width: 10%;
+  height: 10%;
   
 } 
+
+.section1-3 img{
+  width: 15%;
+  height: 10%;
+  margin-right: 100px;
+}
 
 @media screen and (max-width: 900px) {
   .column {
