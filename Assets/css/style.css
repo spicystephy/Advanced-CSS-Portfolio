@@ -125,10 +125,20 @@ img {
   flex-shrink: 20;  
 } */
 
+.header{
+  background-color: cornsilk;
+}
 
+.header h1{
+  font-size: 36px;
+}
 
 .navbar-nav{
-background-color: blue;
+/* background-color: blue; */
+display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma
 }
 
 img:hover {
