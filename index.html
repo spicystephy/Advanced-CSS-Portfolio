@@ -3,33 +3,41 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
   <link rel="stylesheet" href="./Assets/css/style.css">
-  <title>Portfolio</title>
+  <title>Stephanie Zavala's Portfolio</title>
 </head>
 
 <body>
   <!-- Name and nav bar -->
-  <header class="header">
-    <h1>Stephanie Zavala</h1>
-    <img src="./Assets/IMG_1432.jpeg" class="img-fluid" alt="a picture of Stephanie">
-    <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="about-me" href="#about-me">About Me</a>
-            <a class="my-work" href="#my-work">My Work</a>
-            <a class="future-projects" href="#future-projects">Future Projects</a>
-            <a class="contact-me" href="#contact-me">Contact Me</a>
-          </div>
-        </div>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <figure class="image is-96x96">
+      <img class="is-rounded navbar-item" src="./Assets/IMG_1432.jpeg" id="profile" alt="Stephanie Zavala">
+    </figure>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="#about-me">
+          <strong>About Me</strong>
+        </a>
+        <a class="navbar-item" href="#my-work">
+          <strong>My Work</strong>
+        </a>
+        <a class="navbar-item" href="#future-projects">
+          <strong> Future Projects</strong>
+        </a>
+        <a class="navbar-item" href="#contact-me">
+          <strong> Contact Me</strong>
+        </a>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+
   <!-- Main body -->
   <div class="main">
-    <div class="section1-4">
+    <div class="section">
       <div id="about-me">
-        <h2>About Me</h2>
+        <h2><strong> About Me</strong></h2>
       </div>
       <div class="info">
         <p>
@@ -41,42 +49,51 @@
           minor in chemistry. She has worked several years teaching classes and
           providing coaching for people who wanted to make changes for the
           betterment of their health.
-          <!-- I am attending a completely different
-          kind of bootcamp, a 12 week course that covers the full-stack
-          curriculum. Please check back as I plan to update this page with
-          realized projects. -->
+          <br>
+          Currently attending a 12 week course that covers the full-stack
+          curriculum. Please check back for updates to this page with
+          realized projects.
         </p>
       </div>
     </div>
     <br />
-    <div class="section2-4">
+
+    <div class="section">
       <div id="my-work">
-        <h2>My Work</h2>
+        <h2><strong> My Work</strong></h2>
       </div>
       <div class="info">
         <div class="first-work">
-          <h3>Random Password Generator</h3>
+          <h3><strong> Bathroom Buddy</strong></h3>
+          <p>Search for and rate restrooms in your area.</p>
+          <a href="https://github.com/bhfreeman/restroom-tracker.git">GitHub</a>
+          <a href="https://bathroom-buddy-v1.herokuapp.com/">URL</a>
+        </div>
+        <div class="second-work">
+          <h3><strong> Random Password Generator</strong></h3>
           <p>Create a random password using alpha-numeric characters and special characters.</p>
           <a href="https://github.com/spicystephy/Random-Password-Generator.git">GitHub</a>
           <a href="https://spicystephy.github.io/Random-Password-Generator/">URL</a>
         </div>
-        <div class="second-work">
-          <h3>Work Day Scheduler</h3>
-          <p>Create a random password using alpha-numeric characters and special characters.</p>
+        <div class="third-work">
+          <h3><strong> Work Day Scheduler</strong></h3>
+          <p>Plan your day, by the hour, and save your to-do's for the day.</p>
           <a href="https://github.com/spicystephy/Work-Day-Scheduler.git">GitHub</a>
           <a href="https://spicystephy.github.io/Work-Day-Scheduler/">URL</a>
         </div>
+
       </div>
     </div>
     <br />
-    <div class="section3-4">
+    <div class="section">
       <div id="future-projects">
-        <h2>Future Projects</h2>
+        <h2><strong> Future Projects</strong></h2>
       </div>
       <div>
         <div class="info">
           <div class="text-overlay">Totonki Tortilla Warmers</div>
           <img src="https://i.etsystatic.com/15415600/r/il/675787/1532632693/il_fullxfull.1532632693_19jz.jpg"
+            class="img-fluid"
             alt="A tortilla warmer with a yellow base, a lid with colorful patchwork and black trim." />
         </div>
         <br />
@@ -89,28 +106,62 @@
           <img src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe" class="img-fluid"
             alt="Difficult roads lead to beautiful destinations desk decor" />
           <br />
-          <div class="text-overlay2" id="third-box">Rate that Restroom!</div>
-          <img src="https://images.unsplash.com/photo-1502745582385-1d28a39a7269" class="img-fluid"
-            alt="outhouse in desert" />
-          <br />
         </div>
       </div>
     </div>
     <br />
-    <div class="section4-4">
+    <footer class=footer>
       <div id="contact-me">
-        <h2>Contact Me</h2>
+        <h2><strong> Contact Me</strong></h2>
+        <div class="content has-text-centered">
+          <!-- <div class="info"> -->
+          <div class="icon-text">
+            <span class="icon">
+              <i class="fas fa-envelope-square"></i>
+              <span><a href="stephaniemzavala@gmail.com">Email</a>
+              </span>
+            </span>
+          </div>
+          <div class="icon-text">
+            <span class="icon">
+              <i class="fab fa-github-square"></i>
+              <span><a href="https://github.com/spicystephy">GitHub</a>
+              </span>
+            </span>
+          </div>
+          <div class="icon-text">
+            <span class="icon">
+              <i class="fab fa-linkedin"></i>
+              <span><a href="https://www.linkedin.com/in/stephanie-zavala-172995117">Linkedin</a>
+              </span>
+            </span>
+          </div>
+          <a
+            href="https://user-images.githubusercontent.com/77809381/114598503-d0396c00-9c46-11eb-937d-9919f3ee4f77.png">Resume</a>
+        </div>
       </div>
-      <div class="info">
-        <p>Phone: 111-222-3333</p>
-        <p>Email: stephaniemzavala@gmail.com</p>
-        <a href="https://github.com/spicystephy">GitHub</a>
-        <a href="https://www.linkedin.com/in/stephanie-zavala-172995117">Linkedin</a>
-      </div>
-    </div>
+    </footer>
   </div>
 
   <script src="./Assets/js/script.js"></script>
 </body>
 
 </html>
+
+
+<!-- <header class="header">
+    <h1>Stephanie Zavala</h1> -->
+<!-- <img src="./Assets/IMG_1432.jpeg" class="img-fluid" alt="a picture of Stephanie"> -->
+<!-- <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="about-me" >About Me</a>
+            <a class="my-work" >My Work</a>
+            <a class="future-projects" >Future Projects</a>
+            <a class="contact-me" >Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header> -->
