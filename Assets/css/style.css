@@ -35,8 +35,6 @@ a:hover {
   flex-direction: row;
 }
 
-
-
 .info {
   margin-right: 200px;
   margin-left: 200px;
@@ -48,11 +46,6 @@ a:hover {
   justify-content: flex-start;
 } */
 
-/* .main {
-  max-width: 1000px;
-  background-color: rgb(231, 215, 245);
-  margin: auto;
- }  */
 
 h2 {
   display: flex;
@@ -85,35 +78,6 @@ h3{
   justify-content: center;
 }
 
-/* .text-overlay2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  background-color: rgb(171, 177, 235);
-  border-radius: 50px 50px 50px 50px;
-  padding: 0px;
-  width: 85x;
-  height: 85px;
-  border: rgb(129, 135, 192);
-  border-style: solid;
-  border-width: 1.5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: last center;
-  align-items: center; 
-  position: relative;
- }  */
-
-/* #first-box{
-  position:absolute;
-  left: 175px;
-}  */
-/* #second-box{
-  position:absolute;
-}  */
-/* #third-box{
-  position:absolute;
-  right: 175px;
-} */
 
 @media screen and (max-width: 900px) {
   .column {
@@ -127,45 +91,3 @@ h3{
   }
 }
 
-/* .header{
-  background-color: rgb(235, 222, 235);
-  font-size: 28px;
-  display: flex;
-    flex-direction: row;
-    /* align-content: center; */
-    /* justify-content: flex-end; */
-/* }  */
-/* .header::after img{
-  margin-top: 10px;
-  width: 8%;
-  height: 5%;
-  margin-right: 70px;
-  margin-left: 100px;
-} */
-/* .navbar-nav{ 
-  font-size: 18px;
-  font-family:'Segoe UI', Tahoma;
-  
-}  */
-
- /* img:hover {
-  opacity: 0.5;
-} */
-
-/* .text-overlay {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  background-color: rgb(171, 177, 235);
-  border-radius: 50px 50px 50px 50px;
-  padding: 0px;
-  width: 85x;
-  height: 85px;
-  border: rgb(129, 135, 192);
-  border-style: solid;
-  border-width: 1.5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: last center;
-  align-items: center;
-  position: absolute;
-} */
